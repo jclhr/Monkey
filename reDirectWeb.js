@@ -5,7 +5,8 @@
 // @description  nihaoa
 // @description:zh-cn hai
 // @author       jclhr
-// @match        https://www.msnzy1.xyz/cn/home/web/* https://osc.msnzy1.xyz/*
+// @match        https://www.msnzy1.xyz/cn/home/web/*
+// @match        https://osc.msnzy1.xyz/*
 // @icon         https://greasyfork.org/vite/assets/blacklogo96.e0c2c761.png
 // @grant        none
 // @license    GPL-3.0-only
