@@ -1,2 +1,17 @@
-first version
-second version
+// ==UserScript==
+// @name         newScript
+// @namespace    http://name.fun/
+// @version      0.1
+// @description  nihaoa
+// @author       jclhr
+// @match        http://*/*
+// @icon         https://greasyfork.org/vite/assets/blacklogo96.e0c2c761.png
+// @grant        none
+// @license    GPL-3.0-only
+// ==/UserScript==
+ 
+(function() {
+    'use strict';
+ 
+    // Your code here...
+})();
