@@ -4,6 +4,7 @@
 // @namespace    https://blog.chrxw.com
 // @version      1.1
 // @description  去除B站多余的直播播放器（滑稽）
+// @description:zh-cn hai
 // @author       Chr_
 // @include      https://live.bilibili.com/*
 // @license      AGPL-3.0
