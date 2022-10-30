@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         newScript
 // @namespace    http://name.fun/
-// @version      0.2
+// @version      0.3
 // @description  nihaoa
 // @author       jclhr
 // @match        http://*/*
