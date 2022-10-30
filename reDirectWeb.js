@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         newScript
 // @namespace    http://name.fun/
-// @version      0.1
+// @version      0.2
 // @description  nihaoa
 // @author       jclhr
 // @match        http://*/*
@@ -12,6 +12,6 @@
  
 (function() {
     'use strict';
- 
+    console.log('hello world!');
     // Your code here...
 })();
