@@ -19,7 +19,8 @@
     if (VEnable) {
         setTimeout(() => {
             document.getElementById("live-player").remove();
-            document.getElementsByClassName("room-info-ctnr").remove();
+            //document.getElementsByClassName("room-info-ctnr").remove();
+            document.querySelector('.room-info-ctnr').remove();
         }, 3000);
     }
     let btnArea = document.querySelector(".right-ctnr");
@@ -31,7 +32,8 @@
         btn.textContent = VEnable ? "恢复播放器" : "移除播放器";
         if (VEnable) {
             document.getElementById("live-player").remove();
-            document.getElementsByClassName("room-info-ctnr").remove();
+            //document.getElementsByClassName("room-info-ctnr").remove();
+            document.querySelector('.room-info-ctnr').remove();
         } else {
             location.reload();
         }
