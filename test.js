@@ -14,6 +14,7 @@
 (() => {
     "use strict";
     //去除播放器的开关
+    document.getElementById("sections-vm").remove();
     let VEnable = localStorage.getItem("VEnable") === "true";
     if (VEnable) {
         setTimeout(() => {
