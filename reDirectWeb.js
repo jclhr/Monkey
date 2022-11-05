@@ -20,9 +20,9 @@
     //msn
     document.getElementById("dgf_pc").remove();
     //men
-    document.getElementsByClassName("col-xs-12 col-md-6").remove();
-    document.getElementsByClassName("col-xs-12 col-md-6").remove();
-    document.getElementById("player-container").remove();
+    var topAds=document.getElementsByClassName("col-xs-12 col-md-6")[0];
+    topAds.remove()
+    //document.getElementById("player-container").remove();
 
     //document.getElementsByTagName
 
