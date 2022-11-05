@@ -14,12 +14,12 @@
 (() => {
     "use strict";
     //去除播放器的开关
-    document.getElementById("sections-vm").remove();
+
     let VEnable = localStorage.getItem("VEnable") === "true";
     if (VEnable) {
         setTimeout(() => {
             document.getElementById("live-player").remove();
-            document.getElementById("sections-vm").remove();
+            document.getElementsByClassName("section-block f-clear z-section-blocks").remove();
         }, 3000);
     }
     let btnArea = document.querySelector(".right-ctnr");
@@ -31,10 +31,11 @@
         btn.textContent = VEnable ? "恢复播放器" : "移除播放器";
         if (VEnable) {
             document.getElementById("live-player").remove();
-            document.getElementById("sections-vm").remove();
+            document.getElementsByClassName("section-block f-clear z-section-blocks").remove();
         } else {
             location.reload();
         }
     });
     btnArea.insertBefore(btn, btnArea.children[0]);
+    
 })();
