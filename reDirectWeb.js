@@ -20,6 +20,7 @@
     //msn
     document.getElementById("dgf_pc").remove();
     //men
+    document.getElementById("container").remove();
     var topAds=document.getElementsByClassName("col-xs-12 col-md-6")[0];
     topAds.remove()
     //document.getElementById("player-container").remove();
