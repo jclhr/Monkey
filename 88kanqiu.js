@@ -13,9 +13,11 @@
 
 (() => {
     "use strict";
+    console.log('**********************');
     document.getElementById("sidebar-wechat").remove();
-    var a = 7123412;
+    var a=7123412;
     console.log(a);
+    console.log('12341234');
     try{
         document.querySelector('.sitead').remove();
     }
