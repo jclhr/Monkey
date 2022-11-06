@@ -14,5 +14,5 @@
 (() => {
     "use strict";
     document.getElementById("sidebar-wechat").remove();
-    document.querySelector('.sss-container').remove();
+    document.querySelector('.sitead').remove();
 })();
